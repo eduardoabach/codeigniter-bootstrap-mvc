@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	# Salvar esse arquivo com nome de .htaccess na pasta inicial do codeigniter, ao lado de application, system...
+	RewriteEngine On
+	# No RewriteBase mudar para a url base onde está o codeigniter, 127.0.0.1/s3e/
+	RewriteBase /s3e/
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
