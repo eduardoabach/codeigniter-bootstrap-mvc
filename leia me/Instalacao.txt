@@ -1,9 +1,7 @@
 ﻿
 #Copie o conteudo do sistema para dentro da pasta do apache com o nome que desejar.
 
-
 #Coloque o arquivo .htaccess dentro desta pasta do sistema seguindo as oriencações do arquivo de mesmo nome nesta pasta.
-
 
 #No arquivo de configuração do apache altere o 'AllowOverride none' para 'AllowOverride all' nas pastas desejadas. 
 Aquivo está no linux em /etc/apache2/apache2.conf 
@@ -21,8 +19,6 @@ allow from all
 
 
 #No windows verificar arquivo httpd.conf. C:\wamp\bin\apache\apache2.4.9\conf\httpd.conf
-
-
 
 #Ativar o mod_rewrite, no linux o comando:
 
